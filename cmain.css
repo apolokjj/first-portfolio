@@ -1,0 +1,75 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.me{
+    background-color: #191923;
+    backdrop-filter: blur(200px);
+    transition-timing-function: ease;
+    transition-duration: 2s;
+}
+.me:hover{
+    backdrop-filter: blur(0px);
+    background-color: #4e1e9be8;
+}
+
+img#profilepic{
+    width: 300px;
+    margin-left: 750px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    border-radius: 300px;
+    box-shadow: -1px 5px 20px rgba(0, 0, 0, 0.589);
+    transition-duration: 1.3s;
+    transition-property: all;
+
+}
+img#profilepic:hover{
+    width: 500px;
+    margin-left: 650px;
+    margin-bottom: 80px;
+    border-radius: 300px;
+    transition-timing-function: ease;
+}
+
+#html-icon,#css-icon,#js-icon,#java-icon,#php-icon,#python-icon  {
+    width: 60px;
+    border: 2px solid;
+    border-right-width: 110px;
+    
+}
+
+
+#color{
+    color: #6610F2 ;
+    font-size: 150px;
+}
+
+.amv{
+    justify-content: space-around;
+    display: flex;
+    
+    transition-property: initial;
+    transition-duration: 2s
+
+}
+
+#videos{
+    background-color: #191923;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    transition-timing-function: ease;
+    transition-duration: 2s;
+}
+#video1{
+    border: 3px solid #6610F2;
+    border-radius: 5px;
+}
+#video2{
+    border: 3px solid #6610F2;
+    border-radius: 5px;
+}
+#video3{
+    border: 3px solid #6610F2;
+    border-radius: 5px;
+}
