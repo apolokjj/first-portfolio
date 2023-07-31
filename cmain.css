@@ -73,3 +73,15 @@ img#profilepic:hover{
     border: 3px solid #6610F2;
     border-radius: 5px;
 }
+
+@media screen and (max-width: 768px){
+    header, nav, main, footer{
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+   }
+}@media screen and (max-width: 426px){
+    header, nav, main, footer{
+     grid-template-columns: repeat(1,1fr);
+     padding: 3rem 2rem;
+    }
+ }
